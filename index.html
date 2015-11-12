@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Test Page</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div id="container">
+			<div class="center">
+				<div id="column1">	
+					<div class="textbox">
+						<h1>How old are you?</h1> <input type="text" name="age" id="whatAge" class="textInput">
+						<input onclick="age()" type="submit" value="SUBMIT" class="button">
+					</div>
+
+					<br>
+
+					<div class="textbox">
+						<h1>What is the temperature?</h1> <input type="text" name="temperature" id="whatTemp" class="textInput"><br>
+						<h1>Is it raining?</h1>
+						<div class="form">
+							<form action="">
+								<input type="radio" name="rain" id="raining" value="true" ><span class="raining">Yes</span><br/>
+								<input type="radio" name="rain" id="raining" value="false"><span class="raining">No</span>
+							</form><br>
+						</div>
+						<input onclick="weather()" type="submit" value="SUBMIT" class="button">
+					</div>
+
+					<br>
+					
+					<div class="textbox">
+						<h1>What is for dinner?</h1>
+						<input onclick="dinner()" type="submit" value="SUBMIT" class="button">
+					</div>
+				</div>
+				<div id="column2">
+					<div class="textbox">
+						<canvas id="canvas" width="300" height="200"></canvas>
+					<a href="http://girldevelopit.com/" id="gdiLink">Girl Develop It</a>
+					</div>
+
+					<div class="textbox">
+						<h1>What is your name?</h1>
+						<input type="text" name="yourName" id="yourName" size="20">
+						<input onclick="whatName()" type="submit" value="SUBMIT" class="button">
+					</div>
+					<div class="textbox">
+						<img id="turtlePic" src="images/cheeseburger.gif" width="100">
+					</div>
+				</div>
+			</div>
+			<div id="clear"></div>
+		</div>
+
+		<script src="mycode.js"></script>
+	</body>
+</html>
+
+
+
